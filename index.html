@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>7555v // Terminal</title>
+    <style>
+        body {
+            background-color: #0d1117; /* Темный фон GitHub */
+            color: #58a6ff; /* Синий "айтишный" цвет */
+            font-family: 'Courier New', Courier, monospace;
+            padding: 40px;
+            line-height: 1.5;
+        }
+        .prompt { color: #7ee787; } /* Зеленый для команд */
+        .path { color: #d2a8ff; } /* Фиолетовый для путей */
+        a { color: #e1e4e8; text-decoration: none; border-bottom: 1px dashed #e1e4e8; }
+        a:hover { color: #58a6ff; border-bottom: 1px solid #58a6ff; }
+        .cursor { display: inline-block; width: 10px; height: 18px; background: #58a6ff; vertical-align: middle; animation: blink 1s infinite; }
+        @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    </style>
+</head>
+<body>
+    <div>
+        <span class="prompt">7555v@portfolio</span>:<span class="path">~</span>$ whoami<br>
+        Vadim. Project Manager @ Yandex Eats.<br>
+        Automation enthusiast (Python, n8n, AI).<br><br>
+        
+        <span class="prompt">7555v@portfolio</span>:<span class="path">~</span>$ ls -l projects/<br>
+        total 3<br>
+        -rw-r--r--  1 vadim  staff  Agile_Team_Lead<br>
+        -rw-r--r--  1 vadim  staff  Workflow_Automation_Bot<br>
+        -rw-r--r--  1 vadim  staff  BI_Analytics_Dashboards<br><br>
+
+        <span class="prompt">7555v@portfolio</span>:<span class="path">~</span>$ cat contacts.txt<br>
+        > <a href="https://t.me/your_tg">Telegram</a><br>
+        > <a href="https://github.com/7555v">GitHub</a><br><br>
+
+        <span class="prompt">7555v@portfolio</span>:<span class="path">~</span>$ <span class="cursor"></span>
+    </div>
+</body>
+</html>
